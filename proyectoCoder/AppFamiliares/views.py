@@ -34,3 +34,5 @@ def esposo(self):
     esposo.save()
     datos=f"Informacion de mi Esposo: <br> Nombre: {esposo.nombre} <br> Apellido: {esposo.apellido} <br> Fecha de nacimiento: {esposo.fecha_de_nacimiento} <br> Residencia: {esposo.residencia} <br> Profesion: {esposo.profesion}"
     return HttpResponse(datos)
+
+
